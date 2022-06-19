@@ -274,3 +274,14 @@ var swiper = new Swiper(".mySwiper", {
        el: "",
     },
 });
+
+
+/* who am I  Who am I in the voice of the browser? */
+function who_am_i_voice (palyBtn){
+    let aboutMeText = document.querySelector(".who-am-i").textContent.replace("voice","");
+    let speech = new SpeechSynthesisUtterance(aboutMeText);
+    palyBtn.addEventListener('click',() => { 
+        speechSynthesis.speak(speech);
+    });
+}
+who_am_i_voice(document.querySelector(".voice"));
