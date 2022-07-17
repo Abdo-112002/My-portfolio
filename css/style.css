@@ -1010,6 +1010,7 @@ body.darck .line-row .section .icon {
     text-transform: capitalize;
     font-size: 20px;
     color: #fff;
+    max-width: 170px;  
 }
 .project-info .project-links a {
     display: inline-block;
