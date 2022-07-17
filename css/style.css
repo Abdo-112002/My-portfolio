@@ -628,9 +628,9 @@ ul {
     padding: 10px 17px;
     cursor: pointer;
 }
-.tabs .tabs-item:nth-child(2){
+/* .tabs .tabs-item:nth-child(2){
     margin: 0px 12px;
-}
+} */
 .tabs .tabs-item.active {
     border-radius: 40px;
     color: #fff;
