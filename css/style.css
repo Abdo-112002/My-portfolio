@@ -968,6 +968,7 @@ body.darck .line-row .section .icon {
     position: relative;
     transition: .6s;
     overflow: hidden;
+    border-radius: 10px;
 }
 .swiper-slide::before {
     content: "";
