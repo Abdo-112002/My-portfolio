@@ -621,12 +621,14 @@ ul {
 
 .tabs {
     display: flex;
+    flex-wrap: wrap;
     padding: 80px 15px 15px 15px;
 }
 .tabs .tabs-item {
     color: var(--color);
     padding: 10px 17px;
     cursor: pointer;
+    margin: 10px;
 }
 /* .tabs .tabs-item:nth-child(2){
     margin: 0px 12px;
