@@ -1,11 +1,11 @@
 /*------------------------------------------ preloader screen ----------------------*/
-let preloader =  setTimeout(() => {
-    let preloader = document.querySelector(".preloader");
-    preloader.style.cssText = "opacity:0";
-    setTimeout(() => {
-        preloader.style.cssText = " display: none;";
-    }, 510)
-}, 3000)
+document.addEventListener("DOMContentLoaded",() => {
+        let preloader = document.querySelector(".preloader");
+        preloader.style.cssText = "opacity:0";
+        setTimeout(() => {
+            preloader.style.cssText = " display: none;";
+        }, 500);
+});
 
 /*---------------------------------------- darck moode -----------------------------*/
 // save mode in local storage
