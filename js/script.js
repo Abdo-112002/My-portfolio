@@ -1,5 +1,5 @@
 /*------------------------------------------ preloader screen ----------------------*/
-document.addEventListener("DOMContentLoaded",() => {
+document.addEventListener("load",() => {
         let preloader = document.querySelector(".preloader");
         preloader.style.cssText = "opacity:0";
         setTimeout(() => {
