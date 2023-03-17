@@ -208,6 +208,40 @@ ul {
     z-index: 99;
     transition: all .3s ease-in-out;
 }
+
+.header-section .fanose { // for ramadan monthe
+    position: fixed;
+    top: 100%;
+    width: 250px;
+    animation: anim 1s linear infinite;
+  -webkit-animation: anim 1s infinite alternate ease-in-out;
+  -webkit-animation-delay: 0.9s;
+          animation-delay: 0.9s;
+  -webkit-transform-origin: top;
+          transform-origin: top;
+    z-index: -1 !important;
+}
+.fanose2 {
+    right: 5%;
+}
+
+@keyframes anim {
+    from {
+      transform: rotate(-3deg);
+      -webkit-transform: rotate(-3deg);
+      -moz-transform: rotate(-3deg);
+      -ms-transform: rotate(-3deg);
+      -o-transform: rotate(-3deg);
+    }
+    to {
+      transform: rotate(3deg);
+      -webkit-transform: rotate(3deg);
+      -moz-transform: rotate(3deg);
+      -ms-transform: rotate(3deg);
+      -o-transform: rotate(3deg);
+    }
+  }
+
 .header-section .logo {
     padding: 0px 15px;
 }
