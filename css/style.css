@@ -209,7 +209,8 @@ ul {
     transition: all .3s ease-in-out;
 }
 
-.header-section .fanose { // for ramadan monthe
+// for ramadan monthe
+/* .header-section .fanose { 
     position: fixed;
     top: 100%;
     width: 250px;
@@ -223,9 +224,9 @@ ul {
 }
 .fanose2 {
     right: 5%;
-}
+} */
 
-@keyframes anim {
+/* @keyframes anim {
     from {
       transform: rotate(-3deg);
       -webkit-transform: rotate(-3deg);
@@ -240,7 +241,7 @@ ul {
       -ms-transform: rotate(3deg);
       -o-transform: rotate(3deg);
     }
-  }
+  } */
 
 .header-section .logo {
     padding: 0px 15px;
